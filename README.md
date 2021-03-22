@@ -3,6 +3,8 @@ iOS Device SDK를 이용한 샘플 클라이언트
 
 본 프로젝트는 iOS기반으로 동작하는 GiGA Genie Inside(이하, G-INSIDE) SDK sample app을 포함합니다. 
 
+Swift 및 Objective-c 예제를 제공합니다.
+
 ## GiGA Genie Inside
 GiGA Genie Inside(이하, G-INSIDE)는 3rd party 개발자가 자신들의 제품(단말 장치, 서비스, 앱 등)에 KT의 AI Platform인 
 '기가지니'를 올려서 음성인식과 자연어로 제어하고 기가지니가 제공하는 서비스(생활비서, 뮤직, 라디오 등)를 사용할 수 있도록 해줍니다.
@@ -22,7 +24,7 @@ G-INSIDE는 기가지니가 탑재된 제품을 개발자들이 쉽게 만들 �
     
 - Xcode에서 [G-INSIDE iOS Device SDK](https://github.com/gigagenie/ginside-sdk/tree/master/g-sdk-ios) Framework 를 추가한다.
     
-- 사용자 환경에 맞게 Bundle Identifier 등을 수정한다.
+- 사용자 환경에 맞게 Bundle Identifier 등을 수정한다. (InsideSDKSample:swift버전 / InsideSDKObjcSample:objc버전)
     
 - Application 실행 전 인사이드 디바이스 키를 설정한다. 아래 내용을 실제 발급받은 키값으로 입력하여 빌드한다.
     
